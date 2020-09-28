@@ -1,71 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    table, th,td {
+      border: 1px solid #000;
+    }
+    table {
+      border-collapse: collapse;
+      width: 60%;
+      margin: 0 auto;
+    }
+    th {
+      background: rgb(235, 230, 230);
+      text-align: left;
+      padding: 4px 2px;
+    }
+    td {
+      padding: 4px 2px;
+    }
+  </style>
 </head>
-<body style="margin:auto; width: 60%">
-    <h2>Joe Bloggs</h2>
-    <hr>
-    <h3>Web Developer</h3>
-    <ul>
-        <li>email: <a href="joe@bloggs.com" target="_blank">joe@bloggs.com</a></li>
-        <li>website: <a href="www.bloggs.com" target="_blank">www.bloggs.com</a> </li>
-        <li>mobile: <strong>01234567890</strong></li>
-    </ul>
-
-    <h4>Personal Profile </h4>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor metus, interdum at scelerisque in, porta at lacus. Maecenas dapibus luctus cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. <span style="background-color: yellow;">Curabitur non consequat enim.</span> Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
-    <hr>
-    <h3>Work Experience</h3>
-
-    <h4>Job Title at Company</h4>
-
-    <em>April 2011 - Present</em> <br> 
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.></p> 
-
-    <h4>Job Title at Company</h4> 
-
-    <em>Janruary 2007 - March 2011</em> <br> 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.></p>
-    <h4>Job Title at Company</h4>
-    <em>Janruary 2002 - March 2006</em> <br> 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.></p>
-    <hr>
-    <h3>Key Skills</h3>
-    <ul>
-        <li>A Key Skill</li>
-        <li>A Key Skill</li>
-        <li>A Key Skill</li>
-        <li>A Key Skill</li>
-        <li>A Key Skill</li>
-        <li>A Key Skill</li>
-        <li>A Key Skill</li>
-        <li>A Key Skill</li>
-    </ul>
-    <hr>
-    <h3>Education</h3>
-
-    <h4>College/University</h4> 
-    <em>Qualification</em> <br> 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p>
-
-    <h4>College/University</h4>
-
-    <em>Qualification</em> <br>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim.</p>
-    <!--[if gte mso 9]><xml>
-    <mso:CustomDocumentProperties>
-    <mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor msdt:dt="string">Greta Grigelionyt&#279;</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Editor>
-    <mso:Order msdt:dt="string">180800.000000000</mso:Order>
-    <mso:ComplianceAssetId msdt:dt="string"></mso:ComplianceAssetId>
-    <mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author msdt:dt="string">Greta Grigelionyt&#279;</mso:display_urn_x003a_schemas-microsoft-com_x003a_office_x003a_office_x0023_Author>
-    <mso:ContentTypeId msdt:dt="string">0x0101008C3188C9A53D7045B8C4C13AD65391A6</mso:ContentTypeId>
-    <mso:_SourceUrl msdt:dt="string"></mso:_SourceUrl>
-    <mso:_SharedFileIndex msdt:dt="string"></mso:_SharedFileIndex>
-    </mso:CustomDocumentProperties>
-    </xml><![endif]-->
+<body>
+  <table>
+    <tr>
+      <td>Color</td>
+      <td>Color Name</td>
+      <td>Color Code</td>
+    </tr>
+    <tr>
+      <td style="background:tomato"></td>
+      <td>Tomato</td>
+      <td>#FF6347</td>
+    </tr>
+    <tr>
+      <td style="background: Orange"></td>
+      <td>Orange</td>
+      <td>#FFA500</td>
+    </tr>
+    <tr>
+      <td style="background: dodgerblue"></td>
+      <td>DodgerBlue</td>
+      <td>#1E90FF</td>
+    </tr>
+    <tr>
+      <td style="background: mediumspringgreen"></td>
+      <td>MediumSeaGreen</td>
+      <td>#3CB371</td>
+    </tr>
+    <tr>
+      <td style="background: gray"></td>
+      <td>Gray</td>
+      <td>#808080</td>
+    </tr>
+    <tr>
+      <td style="background: slateblue"></td>
+      <td>SlateBlue</td>
+      <td>#6A5ACD</td>
+    </tr>
+    <tr>
+      <td style="background: violet"></td>
+      <td>Violet</td>
+      <td>#EE82EE</td>
+    </tr>
+    <tr>
+      <td style="background: lightgray"></td>
+      <td>LightGray</td>
+      <td>#D3D3D3</td>
+    </tr>
+  </table>
+  <br>
+  <table>
+    <tr>
+      <th colspan="3">Invoice #123456789</th>
+      <th>14 January 2025</th>
+    </tr>
+    <tr>
+      <td colspan="2"><strong>Pay to:</strong><br>
+        Acme Billing Co. <br>
+        123 Main St. <br>
+        Cityville, NA 12345</td>
+      <td colspan="2"><strong>Customer:</strong><br>
+        John Smith. <br>
+        321 Willow Way <br>
+        Southeast Northwestershire, MA 54321</td>
+    </tr>
+    <tr>
+      <th>Name/Description</th>
+      <th>Qty.</th>
+      <th>@</th>
+      <th>Cost</th>
+    </tr>
+    <tr>
+      <td>Paperclips</td>
+      <td>1000</td>
+      <td>0.01</td>
+      <td>10.00</td>
+    </tr>
+    <tr>
+      <td>Staples (box)</td>
+      <td>100</td>
+      <td>1.00</td>
+      <td>100.00</td>
+    </tr>
+    <tr>
+      <th colspan="3">Subtotal</th>
+      <td>110.00</td>
+    </tr>
+    <tr>
+      <th colspan="2">Tax</th>
+      <td>8%</td>
+      <td>8.80</td>
+    </tr>
+    <tr>
+      <th colspan="3">Grand Total</th>
+      <td>118.80</td>
+    </tr>
+  </table>
 </body>
+</html>
+  
